@@ -50,19 +50,16 @@ Adjacency list seems to be one of the best usecases because of the memory effici
 
 Distance travelled by slowPointer before meeting is equal to:
 
-<center> 𝑥 + 𝑦 </center>
+ <p align="center"> 𝑥 + 𝑦 </p>
 
 Distance travelled by fastPointer before meeting:
 
-<center> (𝑥 + 𝑦 + 𝑧) + 𝑦 = 𝑥 + 2 𝑦 + 𝑧 </center>
+<p align="center"> (𝑥 + 𝑦 + 𝑧) + 𝑦 = 𝑥 + 2 𝑦 + 𝑧 </p>
 
 
 Since fastPointer travels with double the speed of slowPointer, and time is constant for both when both pointers reach the meeting point. So by using simple speed, time and distance relation (slowPointer traveled half the distance):
 
-<center>
-2∗dist(slowPointer) 2(𝑥+𝑦)2𝑥 + 2𝑦𝑥 = dist(fastPointer) = 𝑥 + 2𝑦 + 𝑧 = 𝑥+ 2𝑦 + 𝑧 = 𝑧
-</center>
-
+<p align="center"> 2∗dist(slowPointer) 2(𝑥+𝑦)2𝑥 + 2𝑦𝑥 = dist(fastPointer) = 𝑥 + 2𝑦 + 𝑧 = 𝑥+ 2𝑦 + 𝑧 = 𝑧 </p>
 
 Hence by moving slowPointer to start of linked list, and making both slowPointer and fastPointer to move one node at a time, they both have same distance to cover.
 
@@ -96,4 +93,4 @@ In order to proof that my code implementation works, I decided to create some ar
 - It also helps to find all the vertices adjacent to a vertex easily.
 
 ### Cons of Adjacency List
-Finding the adjacent list is not quicker than the adjacency matrix because all the connected nodes must be first explored to find them.
+- Finding the adjacent list is not quicker than the adjacency matrix because all the connected nodes must be first explored to find them.
