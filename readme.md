@@ -86,3 +86,14 @@ In order to proof that my code implementation works, I decided to create some ar
 # output:
 # (True, 'Cycle found, total bytes consumed by the elements of the array:', 200)
 ```
+
+
+## Adjacency Lists
+
+### Pros of Adjacency List
+
+- An adjacency list is efficient in terms of storage because we only need to store the values for the edges. For a sparse graph with millions of vertices and edges, this can mean a lot of saved space.
+- It also helps to find all the vertices adjacent to a vertex easily.
+
+### Cons of Adjacency List
+Finding the adjacent list is not quicker than the adjacency matrix because all the connected nodes must be first explored to find them.
