@@ -1,15 +1,12 @@
 # Task definition
 
-Question: Write a python function that can detect an arbitrary graph has cycles or not.
+Question: Write a Python function that can detect whether an arbitrary graph has cycles or not.
 
 Submission:
 1. Correct and efficient implementation.
-2. How do you test your implementation and convince yourself it is correct.
+2. How do you test your implementation and convince yourself it is correct?
 3. Documentation - readme - pros & cons, potential improvement.
 
-Send to:
-steve@aifi.io
-steve@aifi.com
 
 ## Introduction
 
